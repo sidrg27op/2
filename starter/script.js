@@ -249,22 +249,24 @@ op("sa,sa");
 
 // loop for and backward
 
-const jonasArray = [
-  "Jonas",
-  "Schmedtmann",
-  2037 - 1991,
-  "teacher",
-  ["Michael", "Peter", "Steven"],
-];
+// const jonasArray = [
+//   "Jonas",
+//   "Schmedtmann",
+//   2037 - 1991,
+//   "teacher",
+//   ["Michael", "Peter", "Steven"],
+// ];
 
-for (let i = jonasArray.length - 1; i >= 0; i--) {
-  console.log(i, jonasArray[i]);
-}
+// for (let i = jonasArray.length - 1; i >= 0; i--) {
+//   console.log(i, jonasArray[i]);
+// }
 
-for (let ex = 1; ex < 4; ex++) {
-  console.log(`---------excersize ${ex}`);
+// for (let ex = 1; ex < 4; ex++) {
+//   console.log(`---------excersize ${ex}`);
 
-  for (let rep = 1; rep < 16; rep++) {
-    console.log(`pushups ${rep}`);
-  }
-}
+//   for (let rep = 1; rep < 16; rep++) {
+//     console.log(`ex > ${ex} pushups ${rep}`);
+//   }
+// }
+
+// while loops
